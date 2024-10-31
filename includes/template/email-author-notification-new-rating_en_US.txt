@@ -1,0 +1,8 @@
+Website: {blogname}
+New rating for: {post_title}
+
+-----------------
+Rating: {rating}
+-----------------
+
+New overall rating: {overall_rating} ({number_of_ratings} ratings)

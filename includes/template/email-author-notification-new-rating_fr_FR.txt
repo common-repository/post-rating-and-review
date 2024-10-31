@@ -1,0 +1,8 @@
+Site: {blogname}
+Nouvelle note pour : {post_title}
+
+--------------------------
+Note attribuée : {rating}
+--------------------------
+
+Nouvelle note moyenne : {overall_rating} ({number_of_ratings} notes)

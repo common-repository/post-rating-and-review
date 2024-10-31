@@ -1,0 +1,645 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR 2022 LBO Services
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post rating and review 1.3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-14 11:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: post-rating-and-review.php:289
+msgctxt "Front"
+msgid "Veuillez vous connecter pour pouvoir noter."
+msgstr ""
+
+#: post-rating-and-review.php:415
+msgctxt "Widget Synthesis title"
+msgid "note"
+msgstr ""
+
+#: post-rating-and-review.php:415
+msgctxt "Widget Synthesis title"
+msgid "notes"
+msgstr ""
+
+#: post-rating-and-review.php:448
+msgctxt "Widget synthesis end of progress bar"
+msgid "notes"
+msgstr ""
+
+#: post-rating-and-review.php:448
+msgctxt "Widget synthesis end of progress bar"
+msgid "note"
+msgstr ""
+
+#: post-rating-and-review.php:470
+#: includes/class/class-prar-rating-review.php:399
+#: includes/class/class-prar-rating-review.php:445
+#: includes/class/class-prar-rating-review.php:537
+msgctxt "Front ajax error message"
+msgid "Problème avec les variables POST."
+msgstr ""
+
+#: post-rating-and-review.php:499
+msgctxt "Front ajax error message"
+msgid "Impossible de sauvegarder dans la base de données."
+msgstr ""
+
+#: post-rating-and-review.php:527
+msgctxt "Front"
+msgid "Vous devez être connecté pour noter"
+msgstr ""
+
+#: post-rating-and-review.php:540
+msgctxt "Widget Rating number of reviews"
+msgid "note"
+msgstr ""
+
+#: post-rating-and-review.php:540
+msgctxt "Widget Rating number of reviews"
+msgid "notes"
+msgstr ""
+
+#: post-rating-and-review.php:544
+msgctxt "Widget Rating number of reviews"
+msgid "Pas encore de note"
+msgstr ""
+
+#: post-rating-and-review.php:580
+msgctxt "Front ajax error message"
+msgid ""
+"Erreur sur le nonce. L'opération n'a pas réussi. Veuillez réessayer plus "
+"tard."
+msgstr ""
+
+#: prar-rating-template.php:6
+#, php-format
+msgctxt "Front reviews list - Filter label"
+msgid "Avis avec la note de %d"
+msgstr ""
+
+#: prar-rating-template.php:7
+msgctxt "Front reviews list - Link to all reviews"
+msgid "Réafficher tous les avis"
+msgstr ""
+
+#: prar-rating-template.php:25
+msgctxt "Front reviews list - owned review label"
+msgid "Votre avis"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:74
+msgctxt "Admin column name in comments list"
+msgid "Note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:107
+msgctxt "Admin edit post screen"
+msgid "Ce post n'a pas été noté"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:133
+msgctxt "Admin menu label"
+msgid "Réglages Post Rating & Review"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:144
+msgctxt "Admin options"
+msgid "Vous n'avez pas les permissions nécessaires pour afficher cette page."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:190
+#: includes/class/class-prar-rating-admin.php:197
+msgctxt "Admin options - error message"
+msgid "Au moins un des 2 items doit être obligatoire."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:217
+msgctxt "Admin options"
+msgid "Purge réalisée"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:219
+msgctxt "Admin options"
+msgid "Une erreur s'est produite"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:227
+msgctxt "Admin options - page title"
+msgid "Réglages Post Rating & Review"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:235
+msgctxt "Admin options"
+msgid "Outils"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:240
+msgctxt "Admin options"
+msgid ""
+"Purger l'ensemble des notes. Attention cette opération est irreversible : "
+"toutes les notes seront supprimées ainsi que les metas associées dans les "
+"comments et les posts."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:242
+msgctxt "Admin options"
+msgid "Lancer la purge"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:273
+msgctxt "Admin options"
+msgid "Réglages généraux widget note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:279
+msgctxt "Admin options"
+msgid "Note maximum"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:295
+msgctxt "Admin options"
+msgid "Pas note par user"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:303
+msgctxt "Admin options"
+msgid "Taille par défaut étoiles"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:311
+msgctxt "Admin options"
+msgid "Couleur des étoiles"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:319
+msgctxt "Admin options"
+msgid "Couleur de la barre widget chart"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:327
+msgctxt "Admin options"
+msgid "Couleur de la barre widget chart (survol)"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:335
+msgctxt "Admin options"
+msgid "Couleur bordure review du user connecté"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:344
+msgctxt "Admin options"
+msgid "Réglages affichage de la note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:350
+msgctxt "Admin options"
+msgid "Afficher la note globale après les étoiles ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:358
+msgctxt "Admin options"
+msgid "Afficher le nombre de notes après les étoiles ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:366
+msgctxt "Admin options"
+msgid "Texte affiché en dessous de la note d'un user"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:375
+msgctxt "Admin options"
+msgid "Réglages sauvegarde note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:381
+msgctxt "Admin options"
+msgid "Texte affiché après modification de la note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:389
+msgctxt "Admin options"
+msgid "Note modifiable par le user après le vote ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:397
+msgctxt "Admin options"
+msgid "Sauvegarder la note globale en meta du post ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:405
+msgctxt "Admin options"
+msgid "Nom du champ meta nombre de notes"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:413
+msgctxt "Admin options"
+msgid "Nom du champ meta note moyenne"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:421
+msgctxt "Admin options"
+msgid "Type de meta pour sauvegarde dans le post"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:430
+msgctxt "Admin options"
+msgid "Paramétrage Reviews"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:436
+msgctxt "Admin options"
+msgid "Activer la gestion des reviews ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:444
+msgctxt "Admin options"
+msgid "Post types sur lesquels activer les reviews"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:452
+msgctxt "Admin options"
+msgid "Afficher automatiquement le widget note sur les pages archives ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:460
+msgctxt "Admin options"
+msgid "Afficher automatiquement le widget note sur les pages single ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:468
+msgctxt "Admin options"
+msgid "Note obligatoire pour valider la review ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:476
+msgctxt "Admin options"
+msgid "Commentaire obligatoire pour valider la review ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:484
+msgctxt "Admin options"
+msgid "Commentaire modifiable en front par l'auteur de l'avis ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:492
+msgctxt "Admin options"
+msgid "Commentaire supprimable en front par l'auteur de l'avis ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:500
+msgctxt "Admin options"
+msgid "Commentaire modifiable dans l'admin WP (user autre que l'auteur) ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:509
+msgctxt "Admin options"
+msgid "Paramétrage notifications email"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:515
+msgctxt "Admin options"
+msgid "Envoyer un mail à l'auteur du post à chaque nouvelle note soumise ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:523
+msgctxt "Admin options"
+msgid "Envoyer un mail à l'auteur du post à chaque nouvel avis soumis ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:533
+msgctxt "Admin options"
+msgid ""
+"Réglages généraux sur le plugin. Certains règlages peuvent être surchargés "
+"au moment de l'appel des shortcodes."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:537
+msgctxt "Admin options"
+msgid ""
+"Paramètres d'affichage de la note (note globale et note de l'utilisateur)"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:541
+msgctxt "Admin options"
+msgid ""
+"Comportement du plugin au moment de l'enregistrement d'une note par "
+"l'utilisateur"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:545
+msgctxt "Admin options"
+msgid ""
+"Attention, la gestion des reviews repose sur les commentaires natifs "
+"Wordpress. Le plugin viendra se substituer aux commentaires natifs sur les "
+"types de post que vous aurez sélectionnés. Il faut donc que les commentaires "
+"soient activés sur les posts existants pour que le widget de rating soit "
+"visible.<br>Vous pouvez lire le fichier readme pour plus de détails."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:549
+msgctxt "Admin options"
+msgid ""
+"Des emails de notification peuvent être envoyées à l'auteur du post noté, "
+"que la gestion des avis soit activée ou non."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:579
+msgctxt "Admin options"
+msgid "Cliquez sur le bouton Effacer pour revenir à la couleur par défaut"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:585
+msgctxt "Admin options"
+msgid "Oui"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:585
+msgctxt "Admin options"
+msgid "Non"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:615
+msgctxt "Admin options"
+msgid ""
+"Correspond à la précision de la note que peut attribuer un utilisateur "
+"(conseil: 0.5 ou 1)"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:646
+msgctxt "Admin options"
+msgid "Meta Wordpress"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:646
+msgctxt "Admin options"
+msgid "Champ ACF"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:652
+msgctxt "Admin options"
+msgid ""
+"Permet d'envoyer un mail à l'auteur du post noté via le shortcode "
+"\"prar_set_rating_for_post\", même si la gestion des avis n'est pas activée."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:657
+msgctxt "Admin options"
+msgid ""
+"Le mail standard WP de notification pour un nouveau commentaire sera "
+"personnalisé. Il incluera la note attribuée."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:678
+msgctxt "Admin options"
+msgid ""
+"Vous pouvez sélectionner plusieurs items en maintenant la touche CTRL "
+"enfoncée"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:682
+msgctxt "Admin options"
+msgid ""
+"Le widget Display note s'affichera automatiquement juste après le titre du "
+"post pour chaque post sur la page archive."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:687
+msgctxt "Admin options"
+msgid ""
+"Le widget Display note s'affichera automatiquement juste après le titre du "
+"post sur la page single."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:701
+#: includes/class/class-prar-rating-admin.php:706
+msgctxt "Admin options"
+msgid ""
+"Vous devez avoir au moins la note ou le commentaire indiqué comme "
+"obligatoire. Vous pouvez bien sûr avoir les deux obligatoires."
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:712
+msgctxt "Admin edit user screen - Title"
+msgid "Notes attribuées par l'utilisateur (Post Rating & Review)"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:716
+msgctxt "Admin edit user screen"
+msgid "Aucune note attribuée par l'utilisateur"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:719
+msgctxt "Admin edit user screen"
+msgid "Date"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:719
+msgctxt "Admin edit user screen"
+msgid "# Post"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:719
+msgctxt "Admin edit user screen"
+msgid "Titre post"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:719
+msgctxt "Admin edit user screen"
+msgid "Note"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:725
+#, php-format
+msgctxt "Admin edit user screen"
+msgid "Nombre de notes : %d"
+msgstr ""
+
+#: includes/class/class-prar-rating-admin.php:725
+#, php-format
+msgctxt "Admin edit user screen"
+msgid "Note moyenne : %01.1f"
+msgstr ""
+
+#: includes/class/class-prar-rating-database.php:69
+msgctxt "Internal error message"
+msgid "Au moins 1 paramètre est nécessaire"
+msgstr ""
+
+#: includes/class/class-prar-rating-notification.php:63
+msgctxt "Review email content"
+msgid "pas de note"
+msgstr ""
+
+#: includes/class/class-prar-rating-notification.php:90
+#, php-format
+msgctxt "Review email subject"
+msgid "[%1$s] Nouvel avis sur : \"%2$s\""
+msgstr ""
+
+#: includes/class/class-prar-rating-notification.php:140
+#, php-format
+msgctxt "Rating email subject"
+msgid "[%1$s] Nouvelle note sur : \"%2$s\""
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:205
+msgctxt "Front add review title widget"
+msgid "Votre note :"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:220
+msgctxt "Front error message add review"
+msgid "La sélection d'une note est nécessaire"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:343
+msgctxt "Front - Author actions"
+msgid "Modifier"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:347
+msgctxt "Front - Author actions"
+msgid "Supprimer"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:350
+msgctxt "Front reviews list - delete review title"
+msgid "Suppression d'un avis"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:351
+msgctxt "Front reviews list - delete review confirm message"
+msgid "Confirmez-vous la suppression de votre avis ?"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:353
+#: includes/template/part-update-review.php:21
+#: includes/template/post-reviews.php:64
+msgctxt "Front reviews list - update review title - Error"
+msgid "Une erreur est survenue"
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:410
+msgctxt "Front ajax error message"
+msgid "Seul l'auteur de l'avis peut supprimer son avis."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:421
+msgctxt "Front ajax error message"
+msgid "Votre avis a été supprimé."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:424
+msgctxt "Front ajax error message"
+msgid ""
+"Une erreur s'est produite lors de la suppression. Veuillez réessayer plus "
+"tard."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:455
+msgctxt "Front ajax error message"
+msgid "Veuillez saisir un texte."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:460
+msgctxt "Front ajax error message"
+msgid "Veuillez indiquer une note."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:468
+msgctxt "Front ajax error message"
+msgid "Seul l'auteur de l'avis peut effectuer une modification."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:503
+#: includes/class/class-prar-rating-review.php:519
+msgctxt "Front ajax error message"
+msgid "Erreur lors de la sauvegarde. Veuillez réessayer plus tard."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:525
+msgctxt "Front ajax error message"
+msgid "Votre avis a été modifié."
+msgstr ""
+
+#: includes/class/class-prar-rating-review.php:558
+msgctxt "Front ajax error message"
+msgid "Votre avis a été enregistré."
+msgstr ""
+
+#: includes/template/part-update-review.php:8
+msgctxt "Front reviews list - update review title"
+msgid "Modifier votre avis"
+msgstr ""
+
+#: includes/template/part-update-review.php:16
+msgctxt "Front - Author actions"
+msgid "Valider"
+msgstr ""
+
+#: includes/template/part-update-review.php:17
+msgctxt "Front - Author actions"
+msgid "Annuler"
+msgstr ""
+
+#: includes/template/post-reviews.php:24
+msgctxt "Front reviews list title"
+msgid "Avis"
+msgstr ""
+
+#: includes/template/post-reviews.php:39
+msgctxt "Front reviews list"
+msgid "Vous avez déjà attribué une note"
+msgstr ""
+
+#: includes/template/post-reviews.php:43
+msgctxt "Front reviews list"
+msgid "Vous devez être connecté pour donner votre avis."
+msgstr ""
+
+#: includes/template/post-reviews.php:44
+msgctxt "Front reviews list"
+msgid "Cliquez ici pour vous connecter"
+msgstr ""
+
+#: includes/template/post-reviews.php:48
+msgctxt "Front reviews list - add review button"
+msgid "Donnez votre avis"
+msgstr ""
+
+#: includes/template/post-reviews.php:53
+msgctxt "Front reviews list - add review title"
+msgid "Rédiger un avis"
+msgstr ""
+
+#: includes/template/post-reviews.php:58
+msgctxt "Front reviews list - add review submit button label"
+msgid "Soumettre votre avis"
+msgstr ""
+
+#: includes/template/post-reviews.php:100
+#, php-format
+msgctxt "Front reviews list"
+msgid "Aucun avis trouvé avec la note de %d"
+msgstr ""
+
+#: includes/template/post-reviews.php:102
+msgctxt "Front reviews list"
+msgid "Réafficher tous les avis"
+msgstr ""
+
+#: includes/template/post-reviews.php:106
+msgctxt "Front reviews list"
+msgid "Il n'y a pas encore d'avis. Soyez le premier à partager le vôtre."
+msgstr ""

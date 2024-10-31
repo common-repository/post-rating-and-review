@@ -1,0 +1,176 @@
+.prar-rating.prar-rating-display-post-rating {display: flex; align-items: center; margin-top: 15px;}
+
+.prar-rating-display-post-rating .prar-rating-text-after-overall-rating {margin-left: 10px;}
+.prar-rating-display-post-rating .prar-rating-note {font-weight: bold; font-size: 150%;}
+.prar-rating-display-post-rating .prar-rating-note-max {font-size: 100%; font-weight: normal;}
+.prar-rating-display-post-rating .prar-rating-number-of-votes {font-size: 70%; display: block; margin-top: -5px;}
+
+/* Affichage dans les pages archives (inclus dans le h2 title du post */
+h2 .prar-rating.prar-rating-display-post-rating {margin-top: 5px;}
+h2 .prar-rating-text-after-overall-rating {margin-top: -0.5rem;}
+h2 .prar-rating-texte-note {font-size: 0.8rem;}
+h2 .prar-rating-display-post-rating .prar-rating-number-of-votes {display: inline-block; font-size:1rem; font-weight: normal; margin-left: 5px;}
+h2 .prar-rating-display-post-rating .prar-rating-number-of-votes span {display: none;}
+
+.prar-rating .prar-rating-text-after {
+	font-size: small;
+}
+.prar-rating-text-after.aucune-note {
+	display: block;
+}
+.prar-rating-widget.is-busy + div.prar-rating-spinner {
+	display: block;
+}
+.prar-rating-widget.is-busy ~ div.prar-rating-text-after {
+	display: none;
+}
+
+.prar-rating-spinner {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: none;
+}
+.prar-rating-spinner .center {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.prar-rating-spinner .wave {
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(45deg, gray, #fff);
+  margin: 1px;
+  animation: wave 1s linear infinite;
+  border-radius: 5px;
+}
+.prar-rating-spinner .wave:nth-child(2) {animation-delay: 0.1s;}
+.prar-rating-spinner .wave:nth-child(3) {animation-delay: 0.2s;}
+.prar-rating-spinner .wave:nth-child(4) {animation-delay: 0.3s;}
+.prar-rating-spinner .wave:nth-child(5) {animation-delay: 0.4s;}
+.prar-rating-spinner .wave:nth-child(6) {animation-delay: 0.5s;}
+.prar-rating-spinner .wave:nth-child(7) {animation-delay: 0.6s;}
+.prar-rating-spinner .wave:nth-child(8) {animation-delay: 0.7s;}
+.prar-rating-spinner .wave:nth-child(9) {animation-delay: 0.8s;}
+.prar-rating-spinner .wave:nth-child(10) {animation-delay: 0.9s;}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+/* WIDGET SYNTHESE */
+.prar-rating-chart-widget {margin-top: 20px;}
+.prar-rating-chart-widget .prar-rating-chart-widget-title {width: 100%; text-align: center; margin-bottom: 10px;}
+.prar-rating-chart-widget .prar-rating-chart-widget-title .prar-rating-note {font-weight: bold; font-size: 200%;}
+.prar-rating-chart-widget .prar-rating-chart-widget-title .prar-rating-note-max {font-size: 120%;}
+.prar-rating-chart-widget .prar-rating-chart-widget-title .prar-rating-note::before, .prar-rating-chart-widget .prar-rating-chart-widget-stars span.prar-rating-star::before {
+	display:inline-block; content:''; background-image: url("../../lib/rater-js/star_1.svg"); background-size: contain;
+}
+.prar-rating-chart-widget .prar-rating-chart-widget-title .prar-rating-note::before {height:18px; width:18px; margin-right: 4px;}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars span.prar-rating-star::before {height:12px; width:12px;}
+.prar-rating-chart-widget .prar-rating-chart-widget-title .prar-rating-number-of-votes {font-size: 80%; display: block; margin-top: -5px;}
+.prar-rating-chart-widget a.prar-rating-chart-widget-link, .prar-rating-chart-widget span.prar-rating-chart-widget-link
+	{display: table; position: relative; text-decoration: none; margin-top:2px; margin-bottom:2px}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars span:first-child {display: inline-block; width: 15px;}
+.prar-rating-chart-widget a.prar-rating-chart-widget-link:hover .prar-rating-chart-widget-stars-count {text-decoration: underline;}
+.prar-rating-chart-widget a.prar-rating-chart-widget-link:hover .prar-rating-chart-widget-progress-bar-value {background-color: coral;}
+.prar-rating-chart-widget span.prar-rating-chart-widget-item {display: table-cell; vertical-align: middle; white-space: nowrap;}
+.prar-rating-chart-widget a.prar-rating-chart-widget-link .prar-rating-chart-widget-item:first-child, .prar-rating-chart-widget span.prar-rating-chart-widget-link .prar-rating-chart-widget-item:first-child
+	{width: 5%; /*padding-right:5px;*/}
+.prar-rating-chart-widget a.prar-rating-chart-widget-link .prar-rating-chart-widget-item:last-child, .prar-rating-chart-widget span.prar-rating-chart-widget-link .prar-rating-chart-widget-item:last-child
+	{width: 5%; padding-left:5px; text-align: center;}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars {display: inline-block; vertical-align: middle; position: relative; text-align: left; width: 2rem;}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars img {vertical-align: middle; width: 12px; height:12px; display:inline-block;}
+.prar-rating-chart-widget .prar-rating-chart-widget-progress-bar, .prar-rating-chart-widget .prar-rating-chart-widget-progress-bar-value {height: 20px;}
+.prar-rating-chart-widget span.prar-rating-chart-widget-progress-bar {display: inline-block; width: 100%; background-color: #ececec; vertical-align: middle; overflow: hidden; font-size: .5rem;}
+.prar-rating-chart-widget span.prar-rating-chart-widget-progress-bar-value {display: block; background-color: gold; position: relative;}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars-count {/*width: 3rem;*/ display: inline-block;}
+.prar-rating-chart-widget .prar-rating-chart-widget-stars-count span {display: none;}
+
+
+/* header reviews */
+.comments-header {margin-bottom: 20px;}
+.comments-header .prar-rating-reviews-header {display: flex; position: relative; flex-wrap: wrap; justify-content: space-between; margin-top: 30px; align-items: center;}
+.comments-header .prar-rating-reviews-header .prar-rating-chart-widget {flex: 1.2; margin-top:0; border-right: 1px solid #eee; padding-right: 5%;}
+.comments-header .prar-rating-reviews-header .prar-rating-add-review {flex: 1; text-align: center; padding-left: 5%; padding-right:5%;}
+/* Mise en forme des reviews */
+.prar-rating-reviews-area .prar-rating-reviews-filtre-title {margin-bottom: 10px}
+.prar-rating-reviews-area .prar-review-list, .prar-rating-reviews-area .prar-review-list .children {list-style: none; padding:0; margin: 0;}
+.prar-rating-reviews-area .prar-review-list .comment {border: 2px solid #eee; padding: 15px; margin: 0 0 1.5em; position: relative;}
+.prar-rating-reviews-area .prar-review-list .comment.prar-rating-user-owned-review {border-color: gold; position: relative;}
+.prar-rating-reviews-area .prar-review-list .comment.prar-rating-user-owned-review::before {position:absolute; color: #fff; background-color: gold; top:-2px; right:-2px; padding:4px 10px;}
+.prar-rating-reviews-area .prar-review-list .comment.prar-rating-user-owned-review .prar_action_buttons span:nth-child(2) {margin-left: 20px;}
+.prar-rating-reviews-area .prar-review-list article.comment-body {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start; position: relative;}
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta {width: 150px; margin:0;}
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta .avatar {position: relative; left:0;}
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta .comment-author {display: flex; align-items: center;}
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta img {margin-right: 5px;}	/* avatar */
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta span.says {display: none; }
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta .comment-awaiting-moderation {font-size:70%; }
+.prar-rating-reviews-area .prar-review-list article.comment-body .comment-content {flex: 6; margin:0; padding:0; border-left: 1px solid #eee; background: none; padding-left: 10px;}
+/* Surcharge pour les réponses */
+.prar-rating-reviews-area .prar-review-list .children {margin-left:150px;}  /* largeur du comment-meta parent */
+.prar-rating-reviews-area .prar-review-list .children .comment {border:0; background-color: #eee; margin:0; padding: 10px; margin-top: 10px;}
+.prar-rating-reviews-area .prar-review-list .children article.comment-body {flex-direction: column;}
+.prar-rating-reviews-area .prar-review-list .children article.comment-body .comment-meta {display: flex; align-items: center; width: 100%;}
+.prar-rating-reviews-area .prar-review-list .children article.comment-body .comment-meta .comment-author b {font-weight:300;}
+.prar-rating-reviews-area .prar-review-list .children article.comment-body .comment-metadata {margin:0; padding-left:5px;}
+.prar-rating-reviews-area .prar-review-list .children article.comment-body .comment-content {padding-left:0; border-left:0;}
+.prar-rating-reviews-area .prar-review-list .children .comment.prar-rating-user-owned-review::before {display: none;}
+
+/* Liste des comments */
+.prar-rating-comment-list-item .prar-rating.prar-rating-display-post-rating {display: inline-block;}
+.prar-rating-comment-list-item .prar-rating-texte-note {margin-left: 5px;}
+.prar-rating-comment-list-item .prar-rating-texte-note .prar-rating-note {font-size: 120%; font-weight: 600}
+.prar-rating-comment-list-item .prar-rating-texte-note .prar-rating-note-max {font-size: 80%; font-weight: 300}
+.prar-rating-comment-list-item .text_comment {display: block; margin-top: 5px;}
+
+/* Modal add review */
+.ui-widget-overlay {opacity: 0.3;}
+@media only screen and (max-width: 600px) {
+	.ui-dialog {width: 100% !important;}
+	.ui-dialog .comment-form-comment textarea {width: 100%;}
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.ui-dialog {width: 80% !important;}
+}
+@media only screen and (min-width: 901px) {
+	.ui-dialog {width: 50% !important;}
+}
+#prar_add_review_popin, #prar_update_review_popin {height:80% ! important;}
+#prar_add_review_popin form.comment-form, #prar_update_review_popin .comment-form {display: flex; flex-direction: column;} 
+#prar_add_review_popin #reply-title {display: none;}
+#prar_add_review_popin .prar-rating-review-widget {display: flex; align-items: center; order: 1;}
+#prar_add_review_popin p.comment-form-comment {order: 2;}
+#prar_add_review_popin p.logged-in-as {order: 3;}
+#prar_add_review_popin p.form-submit {order: 4;}
+#prar_add_review_popin .prar-rating-review-widget span.prar-rating-label-note {margin-right: 5px;}
+#prar_update_review_popin .prar-rating-review-widget {display: flex; align-items: center;}
+#prar_update_review_popin .prar-rating-review-widget .prar-rating-text-after {display: none;}
+#prar_update_review_popin .prar-rating-review-widget, #prar_update_review_popin textarea {margin-bottom: 20px;}
+#prar_update_review_popin .prar_update_review_popin_actions span:nth-child(2) {margin-left: 20px;}
+#prar_add_review_popin p.form-submit::after {content:''; background-image: url("images/prar_spinner.gif"); background-size: contain; height: 30px; width: 30px; display: none; vertical-align: middle; margin-left:5px;}
+#prar_add_review_popin p.form-submit.prar_spinner::after {display: inline-block;}
+
+/* Reviews - Responsive */
+@media only screen and (max-width: 600px) {
+	.comments-header .prar-rating-reviews-header {flex-direction: column;}
+	.comments-header .prar-rating-reviews-header .prar-rating-chart-widget {width:100%; border-right: 0; padding-right: 0;}
+	.comments-header .prar-rating-reviews-header .prar-rating-add-review {width:100%; padding-left: 0; padding-right:0; margin-top:20px; margin-bottom: 40px;}
+
+	.prar-rating-reviews-area .prar-review-list article.comment-body {flex-direction: column;}
+	.prar-rating-reviews-area .prar-review-list article.comment-body .comment-meta {width: 100%; display: flex; justify-content: start; align-items: center;}
+	.prar-rating-reviews-area .prar-review-list article.comment-body .comment-metadata {padding-left: 15px;}
+	.prar-rating-reviews-area .prar-review-list article.comment-body .comment-content {width: 100%; border-left: 0; padding-left:0;}
+	.prar-rating-reviews-area .prar-review-list .children {margin-left:0;}
+}

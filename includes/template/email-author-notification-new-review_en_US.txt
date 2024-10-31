@@ -1,0 +1,14 @@
+Website: {blogname}
+New review for: {post_title}
+
+Review author: {review_author}
+Email: {review_author_email}
+
+--------------------------------
+Rating: {review_rating}
+Review content: {review_content}
+--------------------------------
+
+New overall rating: {overall_rating} ({number_of_reviews} reviews)
+
+You can see all reviews on this post here: {link_to_reviews}

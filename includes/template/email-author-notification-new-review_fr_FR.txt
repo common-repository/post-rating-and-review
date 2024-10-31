@@ -1,0 +1,14 @@
+Site : {blogname}
+Nouvel avis pour : {post_title}
+
+Auteur de l'avis : {review_author}
+Email auteur : {review_author_email}
+
+--------------------------------
+Note attribuée : {review_rating}
+Contenu avis : {review_content}
+--------------------------------
+
+Nouvelle note : {overall_rating} ({number_of_reviews} avis)
+
+Tous avis sur ce post : {link_to_reviews}
